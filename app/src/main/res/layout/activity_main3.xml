@@ -1,59 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Main2Activity">
+    tools:context=".Main3Activity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
-
-        <Button
-            android:id="@+id/button5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="진료 예약 화면" />
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="306dp">
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="날짜을 입력하세요" />
-
-        <EditText
-            android:id="@+id/date"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="date"
-            tools:hint="19/10/28" />
+            tools:text="123" />
 
         <Button
-            android:id="@+id/btn_search"
+            android:id="@+id/bt_recordStop"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="병원 찾기" />
+            android:text="녹음중지" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/bt_play"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="진료 녹음 하기" />
+            android:text="재생하기" />
 
         <Button
-            android:id="@+id/button10"
+            android:id="@+id/bt_stop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="정지" />
+
+        <Button
+            android:id="@+id/bt_pause"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="일시정지" />
+
+        <Button
+            android:id="@+id/bt_restart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="재시작" />
+
+        <Button
+            android:id="@+id/bt_record"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="녹음하기" />
+
+        <Button
+            android:id="@+id/bt_back"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="뒤로가기" />
-
-        <ListView
-            android:id="@+id/listview"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

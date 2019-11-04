@@ -13,25 +13,25 @@
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="157dp"
+            android:layout_width="match_parent"
             android:layout_height="42dp"
-            android:text="원하는 메뉴를 선택하세요" />
+            android:text="메인 화면" />
 
         <Button
             android:id="@+id/button"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="진료기록 저장" />
 
         <Button
-            android:id="@+id/button2"
-            android:layout_width="wrap_content"
+            android:id="@+id/btn_reservation"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="진료예약" />
 
         <Button
-            android:id="@+id/button3"
-            android:layout_width="wrap_content"
+            android:id="@+id/btn_lookup"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="진료 기록 조회" />
     </LinearLayout>
